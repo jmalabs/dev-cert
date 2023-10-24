@@ -3,7 +3,8 @@
 
 name: Build and deploy ASP.Net Core app to Azure Web App - dev-cert-app
 
-on:
+# uncomment to enable workflow.
+#on:
   push:
     branches:
       - main
